@@ -14,7 +14,6 @@ public class Operacion {
     
     //Métodos:
     
-    
     //Método para pedirle al usuario que nos digite
     //2 números
     
