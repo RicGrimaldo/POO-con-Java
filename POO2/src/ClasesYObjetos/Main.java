@@ -12,11 +12,12 @@ public class Main {
         Operacion op = new Operacion();
         
         //Se envían los argumentos a los métodos
-        op.sumar(n1, n2);
-        op.resta(n1, n2);
-        op.multiplicacion(n1, n2);
-        op.division(n1, n2);
+        int suma = op.sumar(n1, n2);
+        int resta = op.resta(n1, n2);
+        int mult = op.multiplicacion(n1, n2);
+        int div = op.division(n1, n2);
         
-        op.Mostrar_Resultados();
+        op.Mostrar_Resultados(suma, resta, mult, div);
+        
     }
 }
